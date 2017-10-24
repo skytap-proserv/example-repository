@@ -27,4 +27,13 @@ You must not use the above in committed code, commit messages, filenames, etc.
 
 If you like to use git during your development, keep in mind that any sensitive data that gets committed, no matter how temporary, is a part of the public repository **forever**.  If you do this, you must take your version 1.0 code, move it to a new repository, and pust that repository to GitHub.
 
+## Code Style
+- Code should be written in such a way that it is descrete, and callable from other code.  Code functions are to be encouraged.  (Python users should think in terms of modules)
+- Code should be well documented using appropriate inline comments and docstrings.
+
+## Code Review
+Code should be reviewed by another member of the PS team, ideally by one who has not been involved -- If others cannot see what your code is supposed to do, it needs to be better documented.  Additionally each repository should have a README file that at minimum discusses the problem that the code is trying to solve, and explains what inputs the code requires.
+
+
+
 If you have any questions, talk to Bill.
